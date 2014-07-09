@@ -1,10 +1,18 @@
 require "spec_helper"
 
-class DogHash
 
-  def
 
-  end
+DOG = {
+  "Harleigh" => {
+    name: "harleigh",
+    cattle_dog: "",
+    preferences: {
+      favorite_toy: "frog",
+      favorite_food: "",
+    },
 
-  end
-  end
+    information:"",
+  }
+}
+
+
