@@ -3,15 +3,17 @@ require "spec_helper"
 
 
 DOG = {
-  "Harleigh" => {
-    name: "harleigh",
-    cattle_dog: "",
-    preferences: {
-      favorite_toy: "frog",
-      favorite_food: "",
-    },
-
-    information:"",
+  "harleigh" => {
+    :preferences => [:favorite_toy => "frog"],
+    :information => {:sport => ["frisbee", "hiking"]}
+  },
+  "trixie" => {
+    :preferences => [:favorite_food => "steak"],
+    :information => {:sport => [:swimming, :prancing]}
+  },
+  :cattle_dog => {
+    :preferences => [:name => "Harleigh" ],
+    :names => ["Harleigh", "brown"]
   }
 }
 
